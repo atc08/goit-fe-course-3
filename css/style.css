@@ -2,16 +2,19 @@
 body {
   font-family: "Playfair Display", serif;
   text-align: center;
-  background: url(livello7.png);
-  min-height: 100hv;
+  padding: 77px 0 70px 0;
 }
 ul {
   font-size: 14px;
   font-style: normal;
-  margin-top: 77px;
   margin-bottom: 104px;
   text-transform: uppercase;
   line-height: 24px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
 }
 
 li.space1 {
@@ -34,9 +37,6 @@ a {
   color: #626262;
 }
 
-li {
-  display: inline-block;
-}
 /* BODY */
 .lifestyle {
   margin-bottom: 132px;
@@ -44,6 +44,10 @@ li {
 
 .photodairy {
   margin-bottom: 138px;
+}
+
+.music {
+  padding-bottom: 54px;
 }
 
 .first,
@@ -66,17 +70,28 @@ li {
   margin-right: 56px;
 }
 
+img {
+  background-color: #f2f2f2;
+  margin-bottom: 32px;
+}
+
 p.fornav {
   font-family: "Ubuntu", sans-serif;
   text-align: left;
   font-size: 14px;
   text-transform: uppercase;
   color: #b4ad9e;
+  margin: 0 0 28px 0;
 }
 
 h2 {
   font-size: 30px;
   font-weight: normal;
+  margin: 0 0 34px 0;
+}
+
+p {
+  margin: 0px;
 }
 
 button {
@@ -87,4 +102,6 @@ button {
   font-weight: 400;
   font-family: "Playfair Display", serif;
   color: #626262;
+  background-color: #ffffff;
+  padding: 0px;
 }
