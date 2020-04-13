@@ -1,0 +1,90 @@
+/* HEADER */
+body {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background: url(livello7.png);
+  min-height: 100hv;
+}
+ul {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 77px;
+  margin-bottom: 104px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+li.space1 {
+  margin-right: 121px;
+}
+li.space2 {
+  margin-right: 103px;
+}
+
+li.space3 {
+  margin-right: 95px;
+}
+
+a:hover {
+  color: #03a9f4;
+}
+
+a {
+  text-decoration: none;
+  color: #626262;
+}
+
+li {
+  display: inline-block;
+}
+/* BODY */
+.lifestyle {
+  margin-bottom: 132px;
+}
+
+.photodairy {
+  margin-bottom: 138px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  display: inline-block;
+  width: 420px;
+  height: 478px;
+  text-align: left;
+  font-size: 14px;
+  color: #626262;
+}
+
+.first,
+.third,
+.fifth {
+  margin-right: 56px;
+}
+
+p.fornav {
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+button {
+  width: 164px;
+  height: 60px;
+  border: 1px solid #626262;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
