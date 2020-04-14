@@ -80,16 +80,19 @@ p.fornav {
   text-transform: uppercase;
   color: #b4ad9e;
   margin: 0 0 28px 0;
+  line-height: 17px;
 }
 
 h2 {
   font-size: 30px;
   font-weight: normal;
   margin: 0 0 34px 0;
+  line-height: 36px;
 }
 
 p {
   margin: 0px;
+  line-height: 24px;
 }
 
 button {
