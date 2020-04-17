@@ -11,7 +11,8 @@ ul {
   font-style: normal;
   text-transform: uppercase;
   line-height: 24px;
-  padding: 77px 0 104px 163px;
+  padding: 77px 0 104px 0;
+  text-align: center;
 }
 
 .menu-item {
